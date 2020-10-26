@@ -8,8 +8,8 @@
               a)List = []
               b)Tuple = ()
               c)Set = {}
-              d)String = ""           #there is no char datatype in python  it comes under string
-              e)Range = range(parameter)  #used to print range
+              d)String = ""                  #there is no char datatype in python  it comes under string
+              e)Range = range(parameter)     #used to print range
 Dictionary/Mapping"""
 
 a=6+7j
@@ -22,8 +22,8 @@ e=c>b
 print(e) #returns true or false
 print(type(e))
 
-j=list(range(10)) #range is keyword to get range
+j=list(range(10))                #range is keyword to get range
 print(j)
-n=list(range(2,10,2)) #to get different range sa needed we write syntax as range(starting pt.,ending pt.,differnce)
+n=list(range(2,10,2))            #to get different range as needed we write syntax as range(starting pt.,ending pt.,differnce)
 print(n)
 
