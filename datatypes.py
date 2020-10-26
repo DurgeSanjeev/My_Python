@@ -10,20 +10,23 @@
               c)Set = {}
               d)String = ""           #there is no char datatype in python  it comes under string
               e)Range = range(parameter)  #used to print range
-Dictionary/Mapping"""
+   4)Dictionary/Mapping"""
 
 a=6+7j
 print(type(a))
+
 b=4
 c=9
 d=complex(b,c)
 print(d)
 e=c>b
-print(e) #returns true or false
+print(e)                    #returns true or false
 print(type(e))
 
-j=list(range(10)) #range is keyword to get range
+j=list(range(10))           #range is keyword to get range
 print(j)
-n=list(range(2,10,2)) #to get different range sa needed we write syntax as range(starting pt.,ending pt.,differnce)
+n=list(range(2,10,2))       #to get different range sa needed we write syntax as range(starting pt.,ending pt.,differnce)
 print(n)
+a='String'
+print(a)
 
